@@ -6,7 +6,7 @@ const Wrapper = styled.section`
 
   .friend-list {
     margin: 0 auto;
-    width: 250px;
+    width: 300px;
   }
 
   .item:not(:last-child) {

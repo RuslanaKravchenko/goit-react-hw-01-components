@@ -28,8 +28,11 @@ const Wrapper = styled.section`
   .avatar {
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
     width: 250px;
     margin-bottom: 15px;
+    border: 0.5px solid grey;
+    border-radius: 50%;
   }
 
   .name,
