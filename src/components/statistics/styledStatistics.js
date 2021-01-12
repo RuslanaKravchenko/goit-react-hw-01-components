@@ -5,7 +5,7 @@ const Wrapper = styled.section`
 
   .statistics {
     display: block;
-    width: max-content;
+    width: 300px;
     margin: 0 auto;
     background-color: #ffffff;
   }
