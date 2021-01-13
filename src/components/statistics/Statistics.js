@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import StatItem from './statistics-item/StatItem';
-import Wrapper from './styledStatistics';
+import WrapperStatistics from './styledStatistics';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <Wrapper>
+    <WrapperStatistics>
       <div className="statistics">
         {title && <h2 className="title">{title}</h2>}
         <ul className="stat-list list">
@@ -14,7 +14,7 @@ const Statistics = ({ title, stats }) => {
           ))}
         </ul>
       </div>
-    </Wrapper>
+    </WrapperStatistics>
   );
 };
 export default Statistics;

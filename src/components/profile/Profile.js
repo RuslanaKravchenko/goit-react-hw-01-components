@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Wrapper from './styledProfile';
+import WrapperProfile from './styledProfile';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
   return (
-    <Wrapper>
+    <WrapperProfile>
       <div className="profile">
         <div className="description">
           <img src={avatar} alt="Аватар пользователя" className="avatar" />
@@ -29,7 +29,7 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
           </li>
         </ul>
       </div>
-    </Wrapper>
+    </WrapperProfile>
   );
 };
 

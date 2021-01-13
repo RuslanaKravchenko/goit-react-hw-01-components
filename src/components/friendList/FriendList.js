@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Wrapper from './styledFriendList';
+import WrapperFriendList from './styledFriendList';
 import FriendListItem from './friendItem/FriendListItem';
 
 const FriendList = ({ friends }) => {
   return (
-    <Wrapper>
+    <WrapperFriendList>
       <ul className="friend-list">
         {friends.map(friend => (
           <FriendListItem {...friend} key={friend.id} />
         ))}
       </ul>
-    </Wrapper>
+    </WrapperFriendList>
   );
 };
 export default FriendList;

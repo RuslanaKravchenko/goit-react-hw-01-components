@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
+const WrapperFriendList = styled.section`
   padding-top: 30px;
   padding-bottom: 15px;
 
@@ -13,4 +13,4 @@ const Wrapper = styled.section`
     margin-bottom: 10px;
   }
 `;
-export default Wrapper;
+export default WrapperFriendList;

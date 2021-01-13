@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
+const WrapperTransactionHistory = styled.section`
   padding: 30px 0;
 
   .transaction-history {
@@ -53,4 +53,4 @@ const Wrapper = styled.section`
     border-right: 1px solid #f2f7f8;
   }
 `;
-export default Wrapper;
+export default WrapperTransactionHistory;

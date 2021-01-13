@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
+const WrapperProfile = styled.section`
   padding-top: 30px;
   padding-bottom: 15px;
   color: #6f6b6b;
@@ -76,4 +76,4 @@ const Wrapper = styled.section`
   }
 `;
 
-export default Wrapper;
+export default WrapperProfile;

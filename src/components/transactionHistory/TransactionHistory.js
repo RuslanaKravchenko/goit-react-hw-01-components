@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Wrapper from './styledTransactionHistory';
+import WrapperTransactionHistory from './styledTransactionHistory';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <Wrapper>
+    <WrapperTransactionHistory>
       <table className="transaction-history">
         <thead className="thead">
           <tr>
@@ -24,7 +24,7 @@ const TransactionHistory = ({ items }) => {
           ))}
         </tbody>
       </table>
-    </Wrapper>
+    </WrapperTransactionHistory>
   );
 };
 

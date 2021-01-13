@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
+const WrapperStatistics = styled.section`
   padding-top: 30px;
 
   .statistics {
@@ -20,4 +20,4 @@ const Wrapper = styled.section`
     text-transform: uppercase;
   }
 `;
-export default Wrapper;
+export default WrapperStatistics;
